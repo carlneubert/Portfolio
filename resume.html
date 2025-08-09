@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carl Neubert's personal portfolio showcasing resume, blog, and contact form.">
+    <title>Carl Neubert's Resume</title>
+   
+    <!-- Google Fonts: Playfair Display -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">  
+        <!-- Styling -->
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page">
+    <!-- Header with Fixed Navigation -->
+        <header class="header">
+        <nav class="nav">
+            <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false" id="nav-toggle">
+                <span class="nav__icon"></span>
+            </button>
+            <ul class="nav__list" id="nav-list">
+                <a class="nav_icon">CN</a>
+                <li class="nav__item"><a href="home.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="resume.html" class="nav__link">Resume</a></li>
+                <li class="nav__item"><a href="home.html#blog" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="home.html#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section for Resume Page -->
+    <section id="hero" class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Resume</h1>
+            <p class="hero__subtitle">Explore my experience, skills, and accomplishments</p>
+            <!-- Download Button -->
+            <a href="resume.pdf" class="download__button" download="Carl_Neubert_Resume.pdf">Download PDF Resume</a>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+
+        <h2 class="section__title">Professional Summary</h2>
+        <p class="resume__summary">
+            Accessibility leader with 5+ years of experience helping companies launch, scale,
+            and sustain accessibility programs across digital products and services. Proven
+            success embedding accessibility into organizational strategy, agile processes, and
+            product roadmaps. Expert in WCAG 2.2, Section 508, and ADA compliance, with
+            strong technical knowledge of assistive technologies and inclusive development.
+            Skilled at mentoring cross-functional teams, conducting in-depth audits, and aligning
+            accessibility goals with business priorities. Passionate about building inclusive digital
+            experiences and enabling teams to deliver them at scale.
+        </p>
+
+        <h2 class="section__title">Professional Experience</h2>
+
+        <!-- Experience 1 -->
+        <div class="resume__item">
+            <h3 class="resume__job-title">Accessibility Subject Matter Expert</h3>
+            <p class="resume__company">Vanguard | August 2023 – Present</p>
+            <ul class="resume__responsibilities">
+                <li>Developed and executed an accessibility roadmap, aligning compliance milestones with product delivery goals</li>
+                <li>Conducted in-depth audits and coached teams through remediations across web and mobile platforms</li>
+                <li>Partnered with cross-functional leaders in design, research, and development to build accessibility into the SDLC</li>
+                <li>Presented to senior leadership on compliance risk, audit findings, and strategic opportunities</li>
+                <li>Led educational initiatives on WCAG 2.2, mobile accessibility, and assistive tech usage</li>
+            </ul>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="resume__item">
+            <h3 class="resume__job-title">Accessibility Product Owner</h3>
+            <p class="resume__company">CBORD / Horizon | October 2022 – August 2023</p>
+            <ul class="resume__responsibilities">
+                <li>Oversaw accessibility strategy across native and web applications, driving organizational change</li>
+                <li>Defined governance models and risk frameworks for accessibility review and remediation workflows</li>
+                <li>Collaborated with vendors and QA teams on accessible PDFs, SOW management, and QA standards</li>
+                <li>Provided accessibility leadership in agile ceremonies, backlog grooming, and sprint planning</li>
+            </ul>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="resume__item">
+            <h3 class="resume__job-title">Front-End Developer & Accessibility Advocate</h3>
+            <p class="resume__company">Bounteous | September 2019 – October 2022</p>
+            <ul class="resume__responsibilities">
+                <li>Delivered accessible front-end code and contributed to ARIA and JavaScript implementation best practices</li>
+                <li>Performed audits and guided remediation using tools like Axe, JAWS, and VoiceOver</li>
+                <li>Partnered with UX and product stakeholders to integrate accessibility from ideation through delivery</li>
+                <li>Promoted accessibility awareness and documentation across development teams</li>
+            </ul>
+        </div>
+
+        <!-- Experience 4 -->
+        <div class="resume__item">
+            <h3 class="resume__job-title">Email Technologist</h3>
+            <p class="resume__company">JP Morgan Chase | November 2018 – September 2019</p>
+            <ul class="resume__responsibilities">
+                <li>Ensured large-scale email campaigns were accessible and screen-reader friendly</li>
+                <li>Collaborated with internal teams to align email templates with inclusive design principles</li>
+            </ul>
+        </div>
+
+        <h2 class="section__title">Education</h2>
+        <div class="resume__item">
+            <p class="resume__school">The University of the Arts</p>
+            <p>BFA Graphic Design | Class of 2014</p>
+        </div>
+
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+            <li>Standards & Compliance: WCAG 2.2, Section 508, ADA, ARIA</li>
+            <li>Testing Tools: Axe, WAVE, JAWS, SiteImprove, VoiceOver, TalkBack</li>
+            <li>Dev Knowledge: HTML, CSS, JavaScript, Web Components</li>
+            <li>Leadership: Accessibility governance, strategy, roadmap planning, team mentoring</li>
+            <li>Training: Developed training programs and inclusive design workshops</li>
+            <li>Communication: Executive reporting, stakeholder engagement, risk mediation</li>
+        </ul>
+
+        <h2 class="section__title">Key Achievements</h2>
+        <ul class="achievements__list">
+            <li><strong>Strategic Program Design:</strong> Built accessibility compliance roadmaps and governance at enterprise scale</li>
+            <li><strong>Cross-Functional Leadership:</strong> Unified product, design, and engineering around accessibility outcomes</li>
+            <li><strong>Technical Oversight:</strong> Led accessibility audits and remediation for complex interfaces and documents</li>
+            <li><strong>Advocacy & Enablement:</strong> Fostered inclusive design culture through mentorship, resources, and workshops</li>
+            <li><strong>Technical Problem-Solving:</strong> Provided hands-on solutions to development teams, ensuring accessible code implementation</li>
+            <li><strong>Training & Mentorship:</strong> Created educational initiatives to upskill teams on accessibility, fostering an inclusive design culture</li>
+        </ul>
+
+        <h2 class="section__title">Certifications</h2>
+        <ul class="certifications__list">
+            <li>IAAP Certified Professional in Accessibility Core Competencies (WAS) – Pending</li>
+            <li>Smart Agile Training Certification (2017)</li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>© 2025 Carl Neubert</p>
+    </footer>
+
+    <!-- Link to JavaScript File -->
+    <script src="script.js"></script>
+
+    <!-- Link to JavaScript File -->
+    <script src="nav.js"></script>
+</body>
+</html>

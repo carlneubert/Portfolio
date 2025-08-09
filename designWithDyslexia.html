@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carl Neubert's personal portfolio showcasing resume, blog, and contact form.">
+    <title>Designing for Dyslexia</title>
+   
+    <!-- Google Fonts: Playfair Display -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">  
+        <!-- Styling -->
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page">
+    <!-- Header with Fixed Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false" id="nav-toggle">
+                <span class="nav__icon"></span>
+            </button>
+            <ul class="nav__list" id="nav-list">
+                <a class="nav_icon">CN</a>
+                <li class="nav__item"><a href="home.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="resume.html" class="nav__link">Resume</a></li>
+                <li class="nav__item"><a href="home.html#blog" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="home.html#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section for Dyslexia and Accessibility Blog Post -->
+    <section id="hero" class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Designing for Dyslexia</h1>
+            <p class="hero__subtitle">Practical design tips to create more inclusive digital experiences for people with dyslexia.</p>
+        </div>
+    </section>
+
+    <!-- Blog Post Section -->
+    <section id="blog" class="section blog">
+        <article class="blog-post">
+            <p class="blog-post__date">Published on March 1, 2025</p>
+
+            <!-- Pull Quote Example -->
+            <blockquote class="pull-quote">
+                "Incorporating accessible design practices can make digital content more inclusive for people with dyslexia."
+            </blockquote>
+
+            <div class="blog-post__content">
+                <p>Dyslexia doesn’t always come up in conversations about accessibility, but it should. It’s one of the most common learning differences, affecting how people read, write, and process language. Yet in many digital experiences, it’s still overlooked.</p>
+                <p>I have dyslexia, and I work in accessibility. So I’ve experienced both sides — navigating content that wasn’t built with people like me in mind, and helping teams create more inclusive experiences for everyone.</p>
+                <p>It’s also worth saying up front: dyslexia affects everyone a little differently. What’s frustrating or confusing for one person might not be for another. But there are patterns, and many of the same design choices show up again and again as pain points.</p>
+                <p>The good news is, designing for dyslexia doesn’t require specialized tools or complex solutions. It often comes down to thoughtful choices. When the reading experience is more clear, more flexible, and more forgiving, it helps a wide range of users, not just those with dyslexia.</p>
+                <p>Let’s start by looking at what tends to make digital content harder to use, and why it matters.</p>
+
+                <h2>1. What Dyslexia Looks Like Online</h2>
+                <p>People often assume dyslexia is about seeing letters backward or upside down, but it’s not that simple. Dyslexia affects how the brain processes written language. That can mean slower reading, skipping words, difficulty tracking lines of text, or struggling to decode unfamiliar words — even when someone is highly intelligent and capable in other areas.</p>
+                <p>When it comes to websites and digital products, certain design choices can make things much harder than they need to be. These barriers don’t always stand out to people who don’t experience them, but they add up quickly for someone with dyslexia.</p>
+                <p>Here are a few common pain points:</p>
+                <ul>
+                    <li><strong>Text that’s too dense:</strong> Long blocks of unbroken text can feel overwhelming. Without visual breathing room, it’s easy to lose your place or feel discouraged before even starting to read.</li>
+                    <li><strong>Small font sizes:</strong> If the text is too small, it puts more pressure on the eyes and makes it harder to scan or pick up meaning quickly. This can slow down reading and increase fatigue.</li>
+                    <li><strong>Poor line spacing and alignment:</strong> Tight line spacing or center-aligned text makes it harder to track from one line to the next. Left-aligned text with adequate spacing is much easier to follow.</li>
+                    <li><strong>Overuse of italics or underlining:</strong> Italics and underlines can distort the shape of letters, which makes word recognition harder. They’re fine for short labels, but not ideal for longer passages.</li>
+                    <li><strong>Visual distractions:</strong> Auto-playing sliders, popups, background videos, and constant motion can break focus. When reading already requires extra effort, those distractions hit harder.</li>
+                    <li><strong>Confusing navigation or vague labels:</strong> Link text like “Click here” or menus with unclear structure make it harder to understand where you are or what to expect next.</li>
+                </ul>
+                <p>These kinds of issues can turn even a basic web task into something frustrating or exhausting. The good news is that many of them are easy to fix.</p>
+
+                <h2>2. What Helps: Design and Development Tips That Support Dyslexic Users</h2>
+                <p>The best designs for dyslexic users aren’t flashy or complicated. They’re calm, predictable, and clear. Many of the practices that help people with dyslexia also improve the experience for others, especially people with cognitive disabilities, ADHD, or lower literacy.</p>
+                <p>Here are some practical ways to make your designs more dyslexia-friendly:</p>
+
+                <h3>Typography and Layout</h3>
+                <ul>
+                    <li><strong>Use familiar, readable fonts:</strong> Stick with sans-serif fonts that are widely available, such as Arial, Verdana, Tahoma, or Segoe UI.</li>
+                    <li><strong>Make sure text is large enough to read comfortably:</strong> A good default is 16px or larger for body text.</li>
+                    <li><strong>Add generous spacing:</strong> Use at least 1.5 line spacing for paragraphs and clear margins between blocks of content.</li>
+                    <li><strong>Align text to the left:</strong> Left-aligned text creates a consistent starting point for each line, which helps with tracking.</li>
+                </ul>
+
+                <h3>Color and Contrast</h3>
+                <ul>
+                    <li><strong>Use strong contrast, but avoid pure black on white:</strong> Dark gray on an off-white background is often easier on the eyes.</li>
+                    <li><strong>Never rely on color alone:</strong> Use icons or text to convey meaning alongside color-based indicators.</li>
+                </ul>
+
+                <h3>Navigation and Structure</h3>
+                <ul>
+                    <li><strong>Keep your navigation clear and consistent:</strong> Use descriptive link text like “Download the PDF” instead of “Click here.”</li>
+                    <li><strong>Use clear headings and logical content order:</strong> Break content into sections using proper heading levels.</li>
+                </ul>
+
+                <h3>Content Presentation</h3>
+                <ul>
+                    <li><strong>Chunk your content:</strong> Break large blocks of text into shorter paragraphs, bulleted lists, or cards.</li>
+                    <li><strong>Use plain language:</strong> Avoid jargon and overly complex sentences.</li>
+                    <li><strong>Pair visuals with text:</strong> Icons, diagrams, and visuals can support understanding when paired with clear labels.</li>
+                </ul>
+
+                <h3>Reduce Cognitive Load</h3>
+                <ul>
+                    <li><strong>Let users control movement:</strong> Avoid auto-playing carousels or animations that interrupt reading.</li>
+                    <li><strong>Be consistent:</strong> Repeating patterns, consistent terminology, and predictable layouts reduce mental effort.</li>
+                </ul>
+
+                <h2>3. What Doesn’t Actually Help (and What to Do Instead)</h2>
+                <h3>Special Dyslexia Fonts Aren’t Always Helpful</h3>
+                <p>Fonts like *OpenDyslexic* or *Dyslexie* are often promoted as solutions for dyslexic users. While they were created with good intentions, they’re not a fix-all.</p>
+
+                <h3>High Contrast Isn’t Always Comfortable</h3>
+                <p>Pure black text on a white background can be too harsh. Try using a very dark gray instead of pure black.</p>
+
+                <h3>Italics, Underlining, and All Caps Make Reading Harder</h3>
+                <p>Italics, underlines, and all caps can distort letter shapes, making words harder to recognize. Use them sparingly.</p>
+
+                <h3>Overlays and “Accessibility Modes” Don’t Fix the Real Issues</h3>
+                <p>Accessibility overlays or plugins often provide minimal benefits and can introduce bugs. Build accessibility into the core design instead.</p>
+
+                <h3>Overusing Animation or Interaction</h3>
+                <p>Motion can help draw attention but should be used sparingly. Provide controls to pause or stop animations.</p>
+
+                <h2>4. Final Thoughts</h2>
+                <p>Designing for dyslexia isn’t about adding special features — it’s about making things easier to read, easier to understand, and easier to stay focused on. It’s about creating a welcoming experience for all users.</p>
+            </div>
+        </article>
+
+        <!-- Pagination (optional) -->
+        <div class="blog__pagination">
+            <a href="#prev" class="blog__pagination-link">Previous</a>
+            <a href="#next" class="blog__pagination-link">Next</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>© 2025 Carl Neubert</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Link to JavaScript File -->
+    <script src="nav.js"></script>
+</body>
+</html>
