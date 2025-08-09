@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carl Neubert's personal portfolio showcasing resume, blog, and contact form.">
+    <title>Carl Neubert's Portfolio</title>
+   
+    <!-- Google Fonts: Playfair Display -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Styling -->
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page">
+    <!-- Header with Fixed Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false" id="nav-toggle">
+                <span class="nav__icon"></span>
+            </button>
+            <ul class="nav__list" id="nav-list">
+                <a class="nav_icon">CN</a>
+                <li class="nav__item"><a href="home.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="resume.html" class="nav__link">Resume</a></li>
+                <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Carl Neubert</h1>
+            <p class="hero__subtitle">Accessibility | Design | Development</p>
+        </div>
+    </section>
+
+    <!-- Home Section (Introduction) -->
+    <section id="home" class="interior">
+        <section id="intro">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Welcome to my digital portfolio! Here, you’ll find a collection of my work and experiences in the field of <strong>accessibility</strong> and <strong>web development</strong>. I believe that digital spaces should be inclusive and accessible to all users, and this portfolio is a reflection of that philosophy. Whether you’re exploring my projects, reading my insights, or checking out my resume, I hope you see my dedication to creating user-friendly, accessible digital experiences. Feel free to explore my work, and reach out if you’d like to connect or collaborate!</p>
+</section>
+
+<section id="bio" >
+    <h2>About Me</h2>
+    <p>I’m <strong>Carl Neubert</strong>, an <strong>Accessibility Subject Matter Expert</strong> and <strong>Web Developer</strong> with a passion for creating inclusive digital experiences. Over the years, I’ve worked with diverse teams to integrate accessibility best practices into the development process, ensuring that web applications are accessible to everyone — regardless of ability.</p>
+    <p>My journey into accessibility began with a personal interest in creating a more inclusive digital world, and it has since evolved into a professional mission. I have hands-on experience with <strong>WCAG 2.2</strong>, <strong>Section 508</strong>, <strong>ARIA</strong>, and various assistive technologies like <strong>screen readers</strong>, making me well-versed in the needs and challenges faced by users with disabilities. When I’m not working on improving web accessibility, you can find me writing, cycling, and advocating for better digital practices.</p>
+    <p>I’m always looking to connect with others who are passionate about making the web more accessible. Feel free to explore my portfolio, and let’s talk about how we can make the web a more inclusive place for all users.</p>
+</section>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <h2 class="blog__heading">Blog</h2>
+        <div class="blog__cards">
+            <article class="blog__card">
+                <div class="blog__card-content">
+                    <h3 class="blog__card-title">Designing For Dyslexia</h3>
+                    <p class="blog__card-summary">Practical design tips to create more inclusive digital experiences for people with dyslexia.</p>
+                    <a href="designWithDyslexia.html" class="link blog__card-link">Read More about designing for dyslexia</a>
+                </div>
+            </article>
+            <!-- Repeat for other blog posts -->
+             <article class="blog__card">
+                <div class="blog__card-content">
+                    <h3 class="blog__card-title">Designing For Dyslexia</h3>
+                    <p class="blog__card-summary">Practical design tips to create more inclusive digital experiences for people with dyslexia.</p>
+                    <a href="designWithDyslexia.html" class="link blog__card-link">Read More about designing for dyslexia</a>
+                </div>
+            </article>
+            <article class="blog__card">
+                <div class="blog__card-content">
+                    <h3 class="blog__card-title">Designing For Dyslexia</h3>
+                    <p class="blog__card-summary">Practical design tips to create more inclusive digital experiences for people with dyslexia.</p>
+                    <a href="designWithDyslexia.html" class="link blog__card-link">Read More about designing for dyslexia</a>
+                </div>
+            </article>
+            <article class="blog__card">
+                <div class="blog__card-content">
+                    <h3 class="blog__card-title">Designing For Dyslexia</h3>
+                    <p class="blog__card-summary">Practical design tips to create more inclusive digital experiences for people with dyslexia.</p>
+                    <a href="designWithDyslexia.html" class="link blog__card-link">Read More about designing for dyslexia</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+   <section id="contact" class="section contact">
+    <h2 class="section__title">Contact Me</h2>
+    <div class="contact__container">
+        <!-- Left Column: Contact Form -->
+        <div class="contact__form">
+            <form action="submit_form.php" method="POST" class="form">
+                <label for="name" class="form__label">Your Name:</label>
+                <input type="text" id="name" name="name" required class="form__input">
+
+                <label for="email" class="form__label">Your Email:</label>
+                <input type="email" id="email" name="email" required class="form__input">
+
+                <label for="message" class="form__label">Your Message:</label>
+                <textarea id="message" name="message" required class="form__textarea"></textarea>
+
+                <button type="submit" class="form__button">Send Message</button>
+            </form>
+        </div>
+</section>
+
+    <!-- Footer Section (optional) -->
+    <footer class="footer">
+        <p>© 2025 Carl Neubert</p>
+    </footer>
+
+    <!-- Link to JavaScript File -->
+    <script src="nav.js"></script>
+</body>
+</html>
